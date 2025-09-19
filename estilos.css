@@ -55,6 +55,21 @@ header{
     color: #303030;
     padding: 10px;
 }
+.btn-primary {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
 
 @keyframes moverDegradado {
     0% { background-position: 0% 50%; }
